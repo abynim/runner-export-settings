@@ -1,0 +1,30 @@
+{
+  "author": "Runner Team",
+  "commands": [
+    {
+      "script": "script.js",
+      "name": "Export Settings",
+      "handlers": {
+        "run": "onRun"
+      },
+      "identifier": "exportSettings"
+    },
+    {
+      "script": "script.js",
+      "name": "Import Settings",
+      "handlers": {
+        "run": "onRun"
+      },
+      "identifier": "importSettings"
+    }
+  ],
+  "menu": {
+    "title": "Runner Settings Exporter",
+    "items": ["exportSettings", "importSettings"]
+  },
+  "identifier": "com.sketchrunner.settingsExporter",
+  "version": "1.0",
+  "description": "A utility plugin to export and import settings from Runner",
+  "authorEmail": "hello@sketchrunner.com",
+  "name": "Runner Settings Exporter"
+}
